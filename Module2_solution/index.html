@@ -47,7 +47,7 @@
 				<h2>To Buy:</h2>
 				<ul>
 					<li ng-repeat="item in tbc.items">
-            <span class="item-label">Buy {{item.quantity}} {{item.name}}</span> <button class="btn btn-default" ng-click="tbc.markAsBought($index)"><span class="glyphicon glyphicon-ok"></span> Bought</button>
+            <span class="item-label">Buy {{item.quantity}} {{item.name}}</span> <button class="btn btn-default" ng-click="tbc.markAsBought($index)"><span class="glyphicon glyphicon-ok"></span> Buy</button>
             </li>
 				</ul>
 				<div class="emptyMessage" ng-if="!tbc.items.length">Everything is bought!</div>
